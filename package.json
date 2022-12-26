@@ -1,0 +1,33 @@
+{
+  "name": "vue3-webpack-demo",
+  "version": "1.0.0",
+  "description": "building vue3 project with webpack",
+  "main": "webpack.config.js",
+  "scripts": {
+    "dev": "set NODE_ENV=development webpack serve -c ./webpack.config.js",
+    "build": "webpack -c ./webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xypecho/vue3-webpack-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xypecho/vue3-webpack-demo/issues"
+  },
+  "homepage": "https://github.com/xypecho/vue3-webpack-demo#readme",
+  "dependencies": {
+    "vue": "^3.2.45"
+  },
+  "devDependencies": {
+    "css-loader": "^6.7.3",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.7.2",
+    "vue-loader": "^17.0.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  }
+}
